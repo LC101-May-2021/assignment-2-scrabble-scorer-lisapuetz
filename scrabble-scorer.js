@@ -98,7 +98,6 @@ function transform(obj) {
         newPointStructure[newKey.toLowerCase()] = Number(newVal);
       }
   }
-  newPointStructure[' '] = 0
   return newPointStructure;
 }
 
